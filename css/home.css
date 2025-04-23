@@ -1,3 +1,37 @@
+/* Scrollbar styling for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #3e1a6d; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffccff; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dda0e5; /* Color when hovered over */
+}
+
+/* Scrollbar styling for Firefox */
+.scrollbar {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #ffccff #3e1a6d; /* thumb color and track color */
+}
+
+/* Apply custom scrollbar styling to specific containers */
+.modal, .search-modal, .list {
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100%; /* Adjust height as necessary */
+}
+
+.modal-content {
+  overflow-y: auto; /* Enable scrolling for modal content */
+}
 * {
   margin: 0; 
   padding: 0; 
