@@ -1,8 +1,4 @@
-.center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Optional: centers vertically */
+
 
 /* Scrollbar styling for WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
