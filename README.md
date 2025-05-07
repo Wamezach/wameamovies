@@ -31,7 +31,7 @@ STEP 3: How to deploy website to Cloudflare using GitHub
 7.) You will be directed to GitHub, below Repository access, select "Only select repositories", then select your created repository (example flixmovies)
 8.) Click "Save"
 9.) You will be redirected back to Cloudflare, Under "Select a repository", select your created repository (example flixmovies) then click "Begin setup"
-10.) You will be transferred to "Set up builds and deployments", under "Build output directory", input the folder name from GitHub (my-website)
+10.) You will be transferred to "Set up builds and deployments",
 11.) Click "Save and Deploy"
 12.) You will be transferred to "Building and deploying", Wait for the website to be deployed within a minute. If you see "Success! Your project is deployed to Region: Earth". You can now preview your project. click the link. (example movieflix.pages.dev)
 13.) Upon clicking the link, wait 5 mins for the cloudflare to be totally deploying your website. Enjoy!
